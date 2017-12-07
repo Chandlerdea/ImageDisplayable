@@ -31,6 +31,7 @@
 		363D31391FD8E4810081262F /* ImageDisplayableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayableTests.swift; sourceTree = "<group>"; };
 		363D313B1FD8E4810081262F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363D31451FD8E4910081262F /* ImageDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayable.swift; sourceTree = "<group>"; };
+		363D31491FD8E73B0081262F /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		363D31211FD8E4810081262F = {
 			isa = PBXGroup;
 			children = (
+				363D31491FD8E73B0081262F /* Playground.playground */,
 				363D312D1FD8E4810081262F /* ImageDisplayable */,
 				363D31381FD8E4810081262F /* ImageDisplayableTests */,
 				363D312C1FD8E4810081262F /* Products */,

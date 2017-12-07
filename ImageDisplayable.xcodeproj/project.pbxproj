@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		363D31351FD8E4810081262F /* ImageDisplayable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363D312B1FD8E4810081262F /* ImageDisplayable.framework */; };
 		363D313A1FD8E4810081262F /* ImageDisplayableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D31391FD8E4810081262F /* ImageDisplayableTests.swift */; };
-		363D313C1FD8E4810081262F /* ImageDisplayable.h in Headers */ = {isa = PBXBuildFile; fileRef = 363D312E1FD8E4810081262F /* ImageDisplayable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		363D31461FD8E4910081262F /* ImageDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D31451FD8E4910081262F /* ImageDisplayable.swift */; };
+		36DC2E9C1FD8EA76009BA68F /* ImageDisplayable.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DC2E9B1FD8EA76009BA68F /* ImageDisplayable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36DC2E9E1FD8EAF4009BA68F /* ImageDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DC2E9D1FD8EAF4009BA68F /* ImageDisplayable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,13 +25,13 @@
 
 /* Begin PBXFileReference section */
 		363D312B1FD8E4810081262F /* ImageDisplayable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageDisplayable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		363D312E1FD8E4810081262F /* ImageDisplayable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDisplayable.h; sourceTree = "<group>"; };
 		363D312F1FD8E4810081262F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363D31341FD8E4810081262F /* ImageDisplayableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDisplayableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363D31391FD8E4810081262F /* ImageDisplayableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayableTests.swift; sourceTree = "<group>"; };
 		363D313B1FD8E4810081262F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		363D31451FD8E4910081262F /* ImageDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayable.swift; sourceTree = "<group>"; };
 		363D31491FD8E73B0081262F /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		36DC2E9B1FD8EA76009BA68F /* ImageDisplayable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayable.h; sourceTree = "<group>"; };
+		36DC2E9D1FD8EAF4009BA68F /* ImageDisplayable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDisplayable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,9 @@
 		363D312D1FD8E4810081262F /* ImageDisplayable */ = {
 			isa = PBXGroup;
 			children = (
-				363D312E1FD8E4810081262F /* ImageDisplayable.h */,
+				36DC2E9D1FD8EAF4009BA68F /* ImageDisplayable.swift */,
+				36DC2E9B1FD8EA76009BA68F /* ImageDisplayable.h */,
 				363D312F1FD8E4810081262F /* Info.plist */,
-				363D31451FD8E4910081262F /* ImageDisplayable.swift */,
 			);
 			path = ImageDisplayable;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363D313C1FD8E4810081262F /* ImageDisplayable.h in Headers */,
+				36DC2E9C1FD8EA76009BA68F /* ImageDisplayable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363D31461FD8E4910081262F /* ImageDisplayable.swift in Sources */,
+				36DC2E9E1FD8EAF4009BA68F /* ImageDisplayable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

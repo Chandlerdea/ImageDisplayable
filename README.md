@@ -3,6 +3,9 @@ A small library for downloading images, using `URLSession`
 
 ## Installation
 
+### Requirements
+* Swift 4
+
 ### Carthage
 
 Add the following line to your Cartfile:

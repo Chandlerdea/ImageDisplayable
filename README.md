@@ -18,9 +18,11 @@ You can just drop `ImageDisplayable.xcodeproj` into your project and then add Da
 
 ## Use
 
-To conform to `ImageDisplayable`, you only need the following property:
+`ImageDisplayable` is a protocol. To conform, you only need the following property:
 
 ```var imageSession: URLSession { get set }```
+
+Once an object has that property, it can call the `download(at:, completion:)` function, because it has a default implementation.
 
 Clone the project and open the Playground to see an example of the framework in use.
 

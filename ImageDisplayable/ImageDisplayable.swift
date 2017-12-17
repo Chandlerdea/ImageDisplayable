@@ -19,7 +19,7 @@ public protocol ImageDisplayable {
     
     var imageSession: URLSession { get set }
     var expectedMimeTypes: [String] { get }
-    func download(at url: URL, completion: @escaping ImageDisplayableCompletion)
+    func download(at url: URL, completion: @escaping ImageDisplayableCompletion) -> Int
 }
 
 extension ImageDisplayable {
@@ -31,7 +31,7 @@ extension ImageDisplayable {
         ]
     }
     
-    public func download(at url: URL, completion: @escaping ImageDisplayableCompletion) {
+    public func download(at url: URL, completion: @escaping ImageDisplayableCompletion) -> Int {
         let task: URLSessionTask = self.imageSession.dataTask(with: url) { (data: Data?, response: URLResponse?, error: Error?) in
             if let mimeType: String = response?.mimeType, !self.expectedMimeTypes.contains(mimeType) {
                 DispatchQueue.main.async {
@@ -53,5 +53,6 @@ extension ImageDisplayable {
             }
         }
         task.resume()
+        return task.taskIdentifier
     }
 }
